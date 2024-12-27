@@ -42,7 +42,7 @@ module Cities
     end
 
     def has_data?
-      data_path && Dir.exists?(data_path)
+      data_path && Dir.exist?(data_path)
     end
 
     def path_for_country(code)
