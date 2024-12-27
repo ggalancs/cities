@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
 Provides data about world cities in Ruby. Data from the Maxmind database.
 txt
 
-  s.add_dependency             'multi_json',  '~> 1.8'
+  s.add_dependency             'multi_json',  '~> 1.15'
 
-  s.add_development_dependency 'rspec',       '~> 3.2.0'
+  s.add_development_dependency 'rspec',       '~> 3.13'
   s.add_development_dependency 'countries',   '~> 0.9'
   s.add_development_dependency 'rake'
 
