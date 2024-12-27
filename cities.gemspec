@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Joe Corcoran']
   s.email       = ['joecorcoran@gmail.com']
-  s.homepage    = 'http://github.com/joecorcoran/cities'
+  s.homepage    = 'https://github.com/joecorcoran/cities'
   s.summary     = 'World cities in Ruby'
   s.license     = 'MIT'
   s.description = <<-txt
@@ -20,6 +20,6 @@ txt
   s.add_development_dependency 'countries',   '~> 0.9'
   s.add_development_dependency 'rake'
 
-  s.files        = Dir['lib/**/*.rb'] + ['README.md', 'LICENSE.txt']
+  s.files        = Dir['lib/**/*.rb'] + %w[README.md LICENSE.txt]
   s.require_path = 'lib'
 end
